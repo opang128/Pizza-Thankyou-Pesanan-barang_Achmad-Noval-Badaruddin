@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesanan Barang_0110121074_Achmad_Noval_Badaruddin</title>
+  <link rel="icon" href="IconLaptop.png">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body style="max-width: 65%; border: 3px solid black; margin: auto;">
+  <fieldset style="height: 500px; background-color: #c0f307;">
+    <br>
+    <nav style="padding: 5px; border: 2px solid black; width: 95%; margin: auto;">
+      <ul style="display: flex; list-style-type: none; gap: 90px; padding-left: 30px;">
+        <li><b><a href="/home">Home</b></a><b>  |</b></li>
+        <li><b><a href="/Generate Link">Generate Link</b></a><b>  |</b></li>
+        <li><b><a href="/Transaction History">Transaction History</b></a><b>  |</b></li>
+        <li><b><a href="/Policy">Policy</b></a><b>  |</b></li>
+        <li><b><a href="/Logout">Logout</b></a><b>  |</b></li>
+      </ul>
+    </nav>
+    <br>
+
+    <div style="display: flex; margin-left: auto;">
+      <div style="display: grid;">
+          <img src="TUFGaming.jpg" width="250px" style="padding-left: 30px">
+          <input style="background-color: rgb(152, 152, 187); margin: auto; width: 100px; height: 28px;" type="Submit" value="Upload Picture">
+      </div>
+      <aside style="display: flex; margin-left: 30px;">
+        <table>
+          <form>
+            <label>
+              <tr>
+                <td>Title Here</td>
+                <td>:</td>
+                <td><input type="text" name="Name"></td>
+              </tr>
+            </label>
+          </form>
+          <form>
+            <label>
+              <tr>
+                <td valign="top">Description</td>
+                <td valign="top">:</td>
+                <td><textarea name="Description" cols="40" rows="5" maxlength="400"></textarea></td>
+              </tr>
+            </label>
+          </form>
+          <form>
+            <label>
+              <tr>
+                <td>Account Number</td>
+                <td>:</td>
+                <td><input type="number" name="Account Number"></td>
+              </tr>
+            </label>
+          </form>
+          <form>
+            <label>
+              <tr>
+                <td>Bank</td>
+                <td>:</td>
+                <td><input type="text" list="bank" name="Bank">
+                  <datalist id="bank">
+                    <option value="Mandiri"></option>
+                    <option value="BCA"></option>
+                    <option value="HSBC"></option>
+                    <option value="BNI"></option>
+                    <option value="BRI"></option>
+                  </datalist>
+                </td>
+              </tr>
+            </label>
+          </form>
+          <form>
+            <label>
+              <tr>
+                <td>Account Holder</td>
+                <td>:</td>
+                <td><input type="text" name="Account Holder"></td>
+              </tr>
+            </label>
+          </form>
+          <form>
+            <label>
+              <tr>
+                <td valign="top">Transaction</td>
+                <td valign="top">:</td>
+                <td>
+                    <input type="number">
+                  <p>
+                    *if the Transaction is for 3 person, Choose 3 form the drop-down list
+                  </p>
+                    <input type="checkbox">
+                    <label for="Send To Massage Mobile Phone"> Send to Mobile Phone </label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="Send To Massage Email"> Send to Email </label>
+                </td>
+              </tr>
+            </label>
+          </form>
+          <form>
+            <label>
+              <tr>
+                <td>Send to Mobile Phone</td>
+                <td>:</td>
+                <td><input type="number" name="Send"></td>
+              </tr>
+            </label>
+          </form>
+          <form>
+            <label>
+              <tr>
+                <td>Send to Email</td>
+                <td>:</td>
+                <td>
+                  <input type="text" name="Email">
+                </td>
+              </tr>
+            </label>
+          </form> 
+          <form>
+            <label>
+              <tr>
+                <td>
+                  <br>
+                </td>
+              </tr>
+            </label>
+          </form>
+          <form>
+            <label>
+              <tr>
+                <td>
+                  <input style="background-color: rgb(152, 152, 187); width: 130px; margin-left: 105%;" type="Submit" value="Generate Nabr Link">
+                </td>
+              </tr>
+            </label>
+          </form>
+        </table>
+      </aside>
+    </div>
+  </fieldset>
+</body>
+
+</html>
